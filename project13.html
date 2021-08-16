@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+    body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.road1
+{
+    position: absolute;
+    top:65%;
+    left: -5139px;
+    animation: road1 10s infinite linear reverse;
+}
+.road2
+{
+    position: absolute;
+    top: 65%;
+    left: 0px;
+    animation: road2 10s infinite linear reverse;
+}
+.buildings1
+{
+    position: absolute;
+    top: -10%;
+    left: -100%;
+    width: 100%;
+    animation: building1 10s infinite linear reverse;
+}
+.buildings2
+{
+    position: absolute;
+    top: -10%;
+    left: 0px;
+    width: 100%;
+    animation: building2 10s infinite linear reverse;
+}
+.car
+{
+    position: absolute;
+    top: 40%;
+    width: 50%;
+    left: 25%;   
+}
+.wheel1
+{
+    position: absolute;
+    top: 64%;
+    left: 31.5%;
+    width: 8%;
+    animation: wheel 3s infinite linear;
+}
+.wheel2
+{
+    position: absolute;
+    top: 64%;
+    left: 61.5%;
+    width: 8%;
+    animation: wheel 3s infinite linear;
+}
+@keyframes road1
+{
+    from
+    {
+        left: -5139px;
+    }
+    to
+    {
+        left: 0px;
+    }
+}
+@keyframes road2
+{
+    from
+    {
+        left: 0px;
+    }
+    to
+    {
+        left: 5139px;
+    }
+}
+@keyframes building1
+{
+    from
+    {
+        left: -100%;
+    }
+    to
+    {
+        left: 0px;
+    }
+}
+@keyframes building2
+{
+    from
+    {
+        left: 0px;
+    }
+    to
+    {
+        left: 100%;
+    }
+}
+@keyframes wheel
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+    </style>
+<meta charset="UTF-8">
+<title>Moving Car Animation using CSS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img src="https://image.shutterstock.com/image-vector/straight-empty-road-through-countryside-260nw-1523000288.jpg" class="sky">
+<img src="https://image.shutterstock.com/image-vector/straight-empty-road-through-countryside-260nw-1523000288.jpg" class="road1">
+<img src="https://image.freepik.com/free-vector/road-pathway-with-stop-go-sign_1017-19180.jpg" class="road2">
+<img src="https://www.kindpng.com/picc/m/2-26383_transparent-building-clipart-png-building-black-and-white.png" class="buildings1">
+<img src="https://png.pngitem.com/pimgs/s/17-170685_paris-clipart-cityscape-clipart-picsart-cityscape-hd-png.png" class="buildings2">
+<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/147354845/original/2842ee6f5d0d210f5168b6a645a1da91b1f4a8f7/create-a-2d-graphic-of-any-car-in-24-hours.jpg" class="car">
+<img src="wheel.png" class="wheel1">
+<img src="wheel.png" class="wheel2">
+</body>
+</html>

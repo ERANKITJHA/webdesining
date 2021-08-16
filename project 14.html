@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bouncing ball</title>
+</head>
+<style type="text/css">
+    #aa{ width:200px;
+        height: 200px;
+        background-color: rgb(255, 0, 0);
+        position: relative;
+        animation: ankit 8s infinite;
+        border-radius:187px ;
+        
+    
+      
+    }
+    *{
+        background-color: yellow;
+    }
+    @keyframes ankit{
+        0%{
+            left: 0px; top: 0px;
+        }
+        25%{
+            left: 1000px; top: 0px;
+        }
+        50%{
+            left:1000px; top: 500px;
+        }
+        75%{
+            left: 0px; top: 500px;
+        }
+        100%{
+            left: 0px; top: 0px;
+        }
+    }
+   #bb{
+    width:200px;
+        height: 200px;
+        background-color: rgb(255, 0, 0);
+        position: relative;
+        animation: sakshi 5s infinite;
+        border-radius:187px ;
+         margin-left: 400px;
+         float:left;
+   }
+   @keyframes sakshi{
+        0%{
+            left: 0px; top: 0px;
+        }
+        25%{
+            left: 1000px; top: 0px;
+        }
+        50%{
+            left:1000px; top: 500px;
+        }
+        75%{
+            left: 0px; top: 500px;
+        }
+        100%{
+            left: 0px; top: 0px;
+        }
+    }
+</style>
+
+<body>
+    <div id="aa"></div>
+    <div id="bb"></div>
+    
+</body>
+</html>
